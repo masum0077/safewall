@@ -1,0 +1,100 @@
+/**
+* Table of Content
+*
+* 1.0  -  Global Style
+* ------------------------------------------------------------------------------
+*/
+
+/**
+* 1.0 - Global Style
+* ------------------------------------------------------------------------------
+*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       outline: 0;
+       font-size: 100%;
+       vertical-align: baseline;
+       background: transparent
+}
+body {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.67em;
+       background: #f5f8fa;
+       color: #14171a;
+}
+a{color: #0275d8}
+img{max-width: 100%}
+li{list-style: none}
+button{border: 0;outline: 0;color: #fff;padding: 2px 20px;border-radius: 4px;background: #0275d8}
+.pr0{padding-right: 0}
+.pl0{padding-left: 0}
+.widget{background-color: #fff;margin-bottom: 15px;padding: 15px}
+
+/*Navbar*/
+.navbar{margin-bottom: 15px;border-radius:0;border: none}
+.navbar-default {
+    background-color: #0275d8;
+    }
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-brand{color: #fff}
+.left-area {
+}
+.widget-header h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p.post-author a {
+    font-size: 18px;
+}
+
+p.post-excerpt a {
+    font-size: 13px;
+    color: #000;
+    line-height: 1em
+}
+
+.popular-post {
+    margin-bottom: 10px;
+}
+
+/*Main area*/
+.post {
+    padding: 15px;
+}
+.post .user{
+       margin-bottom: 10px
+}
+.user img {
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-right: 10px;
+}
+.user-content img{margin-top: 10px}
+
+
+/*right-area*/
+.right-area{}
+.single-id img{width: 54px;height: 54px;float: left;margin-right: 10px}
+.single-id {position: relative;margin-bottom: 10px}
+.single-id:last-child {margin-bottom: 0}
+.single-id .s-close{position: absolute;top: 0;right: 0;}
+.single-id {}
+.single-id {}
+button.fl-btn {
+    
+}
+
+.single-user img{wuserth: 54px;height: 54px;float: left;margin-right: 10px}
+.single-user {position: relative;margin-bottom: 10px}
+.single-user:last-child {margin-bottom: 0}
+.single-user .s-close{position: absolute;top: 0;right: 0;}
+
