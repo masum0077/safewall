@@ -68,17 +68,52 @@ p.post-excerpt a {
 /*Main area*/
 .post {
     padding: 15px;
+    margin-bottom:15px;
 }
 .post .user{
        margin-bottom: 10px
 }
-.user img {
+.user a img {
     width: 54px;
     height: 54px;
     float: left;
     margin-right: 10px;
 }
-.user-content img{margin-top: 10px}
+.user-content a img{margin-top: 10px}
+
+/*Discussion Area*/
+.lcs-like {
+    float: left;
+    margin-right:20px;
+}
+.lcs-comments {
+    float: left;
+    margin-right:20px;
+}
+.post-box-wrapper a img {
+    width: 54px;
+    height: 54px;
+    float: left;
+}
+
+.post-box-wrapper {
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.pb-user{
+    width:60px;
+}
+
+.post-box textarea {
+    width: 100%;
+}
+
+input.pb-btn {
+    float: right;
+    display: block;
+}
 
 
 /*right-area*/
