@@ -105,9 +105,13 @@ p.post-excerpt a {
 .pb-user{
     width:60px;
 }
-
+.post-box {
+    margin-left: 63px;
+}
 .post-box textarea {
     width: 100%;
+    padding-left: 20px;
+    border: 1px solid #ddd;
 }
 
 input.pb-btn {
@@ -133,3 +137,17 @@ button.fl-btn {
 .single-user:last-child {margin-bottom: 0}
 .single-user .s-close{position: absolute;top: 0;right: 0;}
 
+
+/*Login Page*/
+.form-control { margin-bottom: 10px; }
+.login-ttl h2 {
+    font-size: 36px;
+}
+
+.login-ttl p {
+    font-size: 18px;
+}
+
+.login-ttl {
+    margin-bottom: 20px;
+}
